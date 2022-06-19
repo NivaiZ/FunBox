@@ -21,7 +21,7 @@
 
 .page-body {
     background: var(--gradient-body);
-    height: 100vh;
+    height: 100%;
     background-image: url('img/Pattern.png');
     font-family: 'Exo 2', sans-serif;
 }
