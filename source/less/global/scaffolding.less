@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: @font;
+  height: 100%;
+}
+
+.container {
+  max-width: 1160px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0 auto;
+
+  @media (max-width: 900px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.page-body {
+  background: @gradient-body;
+  background-image: url("../img/Pattern.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: 900px) {
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: unset;
+  }
+}
